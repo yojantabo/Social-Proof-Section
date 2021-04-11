@@ -1,0 +1,64 @@
+body {font-size: 14px;
+    background-image: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+     font-family: 'spartan', sans-serif;
+     width: 100;
+     height: 100vh;
+}
+@media screen and (max-width:992px){
+    body{
+        background-image: none;
+        background-image: url(images/bg-pattern-top-mobile.svg);
+    }
+    .texto{
+        text-align: center;
+    }
+}
+@media screen and (max-width:575px){
+    .col{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .mx-1{
+        margin-top: 20px;
+    }
+}
+h1{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+}
+
+.img{
+    width: 15%;
+}
+.bor{
+    border-radius: 10px;
+ }
+ .bg-1{
+    background:hsl(300, 43%, 22%) ;
+}
+.bg-2{
+    color: hsl(333, 80%, 67%);
+}
+.bg-3{
+    background:hsl(303, 10%, 53%);
+}
+.bg-4{
+    color:hsl(300, 24%, 96%);
+}
+.bg-5{
+    color:hsl(0, 0%, 100%);
+}
+.bg-6{
+    color:hsl(300, 43%, 22%) ;;
+}
+.bg-7{
+    background:
+    hsl(290deg 30% 96%);
+}
